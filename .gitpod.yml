@@ -10,9 +10,3 @@ ports:
 tasks:
   - init: echo 'init script' # runs during prebuild
     command: echo 'start script'
-  - grails-env: echo 'Grails environment' # runs after pre build
-    command: sdk install grails
-
-
-
-  
